@@ -1,0 +1,53 @@
+p{
+    color: brown;
+}
+
+li{
+    background-color: rgba(238, 94, 202, 0.89);
+    width: 25vw;
+    color: #030000;
+    
+
+}
+
+li:hover{
+    background-color: rgb(12, 3, 3);
+    color: rgb(252, 252, 252);
+}
+
+#encabezadoprincipal{
+
+    color: rgb(11, 9, 12);
+    margin: 5px;
+    border: #f1bef8 solid 5px;
+    background-color: #d18de2;
+    
+}
+
+#encabezadosecundario{
+
+    color: rgb(30, 12, 136);
+}
+
+.textos{
+
+    color: rgb(255, 255, 255);  
+    background-color: #3b0808c7; 
+    margin: 10px;
+    border: solid 2px;
+    border-color: brown;
+    padding: 10px;
+}
+
+.foto{
+    width:100px;
+    background-color: #187099c7; 
+    margin: 10px;
+    border: solid 20px;
+    border-color: rgb(4, 35, 71);
+    padding: 8px;
+    border-radius: 10%;
+    ;
+
+
+}
