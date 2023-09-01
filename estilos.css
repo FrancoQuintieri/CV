@@ -3,10 +3,14 @@ p{
 }
 
 li{
-    background-color: rgba(238, 94, 202, 0.89);
+    background-color: rgba(94, 15, 94, 0.89);
     width: 25vw;
     color: #030000;
+    list-style: none;
     
+}
+a{
+    text-decoration: none;
 
 }
 
@@ -50,4 +54,22 @@ li:hover{
     ;
 
 
+}
+
+.boton{
+    background-color: #0c0e2e;
+    margin: 20px;
+    width: 130px;
+    height: 40px;
+    
+}
+.boton a{
+    display: flex;
+    text-align: center;
+}
+.navBar{
+    background-color: #04df58;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
 }
