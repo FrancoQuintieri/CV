@@ -1,75 +1,304 @@
-p{
-    color: brown;
+/* Estilo para el fondo de la página */
+*{
+    margin: 0 ; 
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #F5F5DC; /* Cambia este color al que desees */
 }
 
-li{
-    background-color: rgba(94, 15, 94, 0.89);
-    width: 25vw;
-    color: #030000;
+/* Estilo para el encabezado ocupando todo el ancho */
+.encabezado {
+    background-color: rgb(139, 69, 19); /* Color de fondo del encabezado */
+    padding: 10px 0; /* Espacio de relleno vertical (10px) y sin espacio horizontal */
+    text-align: center; /* Alinea el texto al centro horizontalmente */
+}
+
+/* Estilo para la navegación dentro del encabezado */
+.navBar {
     list-style: none;
-    
+    padding: 0;
+    margin: 0;
 }
-a{
+
+.navBar .boton {
+    display: inline;
+    margin-right: 20px; /* Espacio entre los botones de navegación */
+}
+
+.navBar .boton:last-child {
+    margin-right: 0; /* Elimina el espacio a la derecha del último botón */
+}
+
+.navBar .boton a {
     text-decoration: none;
-
+    color: #fff; /* Color del texto de los botones de navegación */
+    font-weight:bold;
 }
 
-li:hover{
-    background-color: rgb(12, 3, 3);
-    color: rgb(252, 252, 252);
-}
-
-#encabezadoprincipal{
-
-    color: rgb(11, 9, 12);
-    margin: 5px;
-    border: #f1bef8 solid 5px;
-    background-color: #d18de2;
-    
-}
-
-#encabezadosecundario{
-
-    color: rgb(30, 12, 136);
-}
-
-.textos{
-
-    color: rgb(255, 255, 255);  
-    background-color: #3b0808c7; 
-    margin: 10px;
-    border: solid 2px;
-    border-color: brown;
-    padding: 10px;
-}
-
-.foto{
-    width:100px;
-    background-color: #187099c7; 
-    margin: 10px;
-    border: solid 20px;
-    border-color: rgb(4, 35, 71);
-    padding: 8px;
-    border-radius: 10%;
-    ;
-
-
-}
-
-.boton{
-    background-color: #0c0e2e;
-    margin: 20px;
-    width: 130px;
-    height: 40px;
-    
-}
-.boton a{
+/* Estilo para el contenedor principal */
+.container {
     display: flex;
-    text-align: center;
 }
-.navBar{
-    background-color: #04df58;
+
+/* Estilo para la columna de datos personales (a la izquierda, debajo del encabezado) */
+.columna-datos {
+    width: 200px; /* Ajusta el ancho según tus necesidades */
+    background-color: rgb(162, 82, 45); /* Color de fondo de la columna de datos */
+    padding: 20px; /* Espacio de relleno para separar el contenido */
+    box-sizing: border-box; /* Incluye el espacio de relleno en el ancho total */
+    height: 110vh;
+    margin-top: -490px;
+    
+}
+
+/* Estilo para la imagen en la columna de datos personales */
+.foto {
+    width: 110px; /* Cambia el ancho según tus preferencias */
+    display: flex;
+    margin: 0 auto; /* Centra horizontalmente */
+    vertical-align: middle; /* Centra verticalmente */
+    border-radius: 70%; /* Para hacer la imagen circular */
+    
+}
+
+/* Estilo para el encabezado principal (tu nombre) */
+#encabezadoprincipal {
+    font-size: 20px; /* Tamaño de fuente para tu nombre */
+    margin-top: 18px; /* Espacio vertical entre la imagen y tu nombre */
+    padding-bottom: 10px;
+}
+
+.datospersonales {
+    border-top: 5px #FFD7DC solid;
+    border-bottom: 5px #FFD7DC solid;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #FFDFBA;
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+/* Estilo para los otros elementos en la columna de datos personales */
+.textos p {
+    border-bottom: 2px #FFD7DC solid;
+    padding-bottom: 10px;
+    padding-top: 0px;
+    color: #FFDFBA;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Estilo para el encabezado ocupando todo el ancho */
+header {
+    display: flex;
+    justify-content: space-between; /* Espaciado uniforme entre las partes */
+    text-align: center; /* Alinea el texto al centro horizontalmente */
+    align-items: center;
+}
+
+
+.parte2 {
+    flex: 1; /* Ocupa el espacio disponible en la parte derecha */
+    background-color: rgb(139, 69, 19); /* Color de fondo de la parte derecha */
+    padding: 11px;
+    justify-content: space-between; /* Espacia los elementos a los extremos */
+    display: flex;
+    align-items: center; /* Centra verticalmente los elementos */
+    border-radius: 0 0 20px 0;
+    margin-left: 200px;
+  
+   
+}
+
+
+/* Estilo para los botones dentro de la parte de la derecha */
+.parte2 .navBar .boton {
+    display: inline-block;
+    background-color: rgb(139, 69, 19); /* Color de fondo inicial */
+    transition: background-color 0.3s; /* Transición suave para el cambio de color de fondo */
+    padding: 10px 10px; /* Ajusta el tamaño de los botones aumentando el padding */
+    border-radius: 20px;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Cambia la fuente a una más amigable (puedes usar otras fuentes) */
+    color: #FFDFBA;
+  
+    
+}
+
+
+/* Estilo para los botones dentro de la parte de la derecha */
+.parte2 .navBar .boton2 {
+    display: inline-block;
+    margin-left: 200px;
+    background-color: rgb(139, 69, 19); /* Color de fondo inicial */
+    transition: background-color 0.3s; /* Transición suave para el cambio de color de fondo */
+    padding: 10px 10px; /* Ajusta el tamaño de los botones aumentando el padding */
+    border-radius: 20px;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #FFDFBA;
+    
+}
+
+.parte2 .navBar .boton3 {
+    display: inline-block;
+    margin-left: 200px;
+    background-color: rgb(139, 69, 19); /* Color de fondo inicial */
+    transition: background-color 0.3s; /* Transición suave para el cambio de color de fondo */
+    padding: 10px 10px; /* Ajusta el tamaño de los botones aumentando el padding */
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px ;
+    border-bottom-right-radius: 20px;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #FFDFBA;
+
+    
+}
+
+/* Estilo para los botones enlaces */
+.parte2 .navBar .boton a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #FFDFBA;
+}
+
+
+
+/* Efecto de hover para los botones */
+.parte2 .navBar .boton:hover {
+    background-color: rgb(162, 82, 45); /* Cambia el color de fondo al pasar el cursor */
+}
+
+/* Estilo para los botones enlaces */
+.parte2 .navBar .boton2 a {
+    text-decoration: none;
+    color: #FFDFBA;
+    font-weight: bold;
+}
+
+/* Efecto de hover para los botones */
+.parte2 .navBar .boton2:hover {
+    background-color: rgb(162, 82, 45); /* Cambia el color de fondo al pasar el cursor */
+    color: #FFD7DC;
+}
+
+/* Estilo para los botones enlaces */
+.parte2 .navBar .boton3 a {
+    text-decoration: none;
+    color: #FFDFBA;
+    font-weight: bold;
+}
+
+/* Efecto de hover para los botones */
+.parte2 .navBar .boton3:hover {
+    background-color: rgb(162, 82, 45); /* Cambia el color de fondo al pasar el cursor */
+}
+
+.parte2 .navBar .boton a:hover {
+    text-decoration: none;
+    color: #FFD7DC;
+    font-weight: bold;
+}
+
+.parte2 .navBar .boton2 a:hover {
+    text-decoration: none;
+    color: #FFD7DC;
+    font-weight: bold;
+}
+
+.parte2 .navBar .boton3 a:hover {
+    text-decoration: none;
+    color: #FFD7DC;
+    font-weight: bold;
+}
+
+.contenido-principal {
     padding: 20px;
-    display: flex;
-    justify-content: space-around;
+    padding-bottom: 20px;
+    background-color: #F5F5DC; 
+    font-size: 26px; 
+    color: #333;
+    margin-left: 200px; 
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:bold;
+    color: #654321;
+
+}
+.contenido-principal2 {
+    background-color: #F5F5DC; 
+    font-size: 12px; 
+    color: #333;
+    margin-left: 240px; 
+    height: 100%;
+    border-left: 2px rgb(22, 27, 27) solid;
+    width: 600px;
+    
+    
+}
+
+.contenido-principal2 p {
+    margin: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #654321;
+}
+
+.subtitulos{
+    font-weight:bold;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+
+
+
+
+/* ACA EMPIEZA CONOCIMIENTOS */
+
+
+
+
+
+.lista-p {
+    padding-left: 15px; /* Espacio adicional a la izquierda para los puntos */
+    position: relative;
+    font-weight: 500;
+}
+
+.lista-p:before {
+    content: "•"; /* Agrega un punto como marcador */
+    position: absolute;
+    left: -5px; /* Ajusta la posición del punto */
+    color: #654321; /* Color del punto */
+}
+
+
+.contenido-principal3 {
+    background-color: #F5F5DC; 
+    font-size: 12px; 
+    color: #333;
+    margin-left: 5px; 
+    height: 100%;
+    border-left: 2px rgb(22, 27, 27) solid;
+    width: 600px;
+    padding-left: 5px;
+    
+    
+}
+
+.contenido-principal3 p {
+    margin: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #654321;
+}
+
+.espacioblanco{
+    font-size: 0;
+    height: 240px;
 }
