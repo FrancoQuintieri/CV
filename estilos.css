@@ -5,17 +5,17 @@
     box-sizing: border-box;
 }
 body {
-    background-color: #F5F5DC; /* Cambia este color al que desees */
+    background-color: #F5F5DC; 
 }
 
-/* Estilo para el encabezado ocupando todo el ancho */
+
 .encabezado {
-    background-color: rgb(139, 69, 19); /* Color de fondo del encabezado */
-    padding: 10px 0; /* Espacio de relleno vertical (10px) y sin espacio horizontal */
-    text-align: center; /* Alinea el texto al centro horizontalmente */
+    background-color: rgb(139, 69, 19); 
+    padding: 10px 0; 
+    text-align: center; 
 }
 
-/* Estilo para la navegación dentro del encabezado */
+
 .navBar {
     list-style: none;
     padding: 0;
@@ -24,49 +24,49 @@ body {
 
 .navBar .boton {
     display: inline;
-    margin-right: 20px; /* Espacio entre los botones de navegación */
+    margin-right: 20px; 
 }
 
 .navBar .boton:last-child {
-    margin-right: 0; /* Elimina el espacio a la derecha del último botón */
+    margin-right: 0; 
 }
 
 .navBar .boton a {
     text-decoration: none;
-    color: #fff; /* Color del texto de los botones de navegación */
+    color: #fff; 
     font-weight:bold;
 }
 
-/* Estilo para el contenedor principal */
+
 .container {
     display: flex;
 }
 
-/* Estilo para la columna de datos personales (a la izquierda, debajo del encabezado) */
+
 .columna-datos {
-    width: 200px; /* Ajusta el ancho según tus necesidades */
-    background-color: rgb(162, 82, 45); /* Color de fondo de la columna de datos */
-    padding: 20px; /* Espacio de relleno para separar el contenido */
-    box-sizing: border-box; /* Incluye el espacio de relleno en el ancho total */
+    width: 200px; 
+    background-color: rgb(162, 82, 45); 
+    padding: 20px; 
+    box-sizing: border-box; 
     height: 110vh;
     margin-top: -490px;
     
 }
 
-/* Estilo para la imagen en la columna de datos personales */
+
 .foto {
-    width: 110px; /* Cambia el ancho según tus preferencias */
+    width: 110px; 
     display: flex;
-    margin: 0 auto; /* Centra horizontalmente */
-    vertical-align: middle; /* Centra verticalmente */
-    border-radius: 70%; /* Para hacer la imagen circular */
+    margin: 0 auto; 
+    vertical-align: middle;
+    border-radius: 70%; 
     
 }
 
-/* Estilo para el encabezado principal (tu nombre) */
+
 #encabezadoprincipal {
-    font-size: 20px; /* Tamaño de fuente para tu nombre */
-    margin-top: 18px; /* Espacio vertical entre la imagen y tu nombre */
+    font-size: 20px; 
+    margin-top: 18px;
     padding-bottom: 10px;
 }
 
@@ -80,7 +80,7 @@ body {
     margin-top: 20px;
 }
 
-/* Estilo para los otros elementos en la columna de datos personales */
+
 .textos p {
     border-bottom: 2px #FFD7DC solid;
     padding-bottom: 10px;
@@ -90,22 +90,22 @@ body {
     margin-bottom: 10px;
 }
 
-/* Estilo para el encabezado ocupando todo el ancho */
+
 header {
     display: flex;
-    justify-content: space-between; /* Espaciado uniforme entre las partes */
-    text-align: center; /* Alinea el texto al centro horizontalmente */
+    justify-content: space-between; 
+    text-align: center; 
     align-items: center;
 }
 
 
 .parte2 {
-    flex: 1; /* Ocupa el espacio disponible en la parte derecha */
-    background-color: rgb(139, 69, 19); /* Color de fondo de la parte derecha */
+    flex: 1; 
+    background-color: rgb(139, 69, 19);
     padding: 11px;
-    justify-content: space-between; /* Espacia los elementos a los extremos */
+    justify-content: space-between; 
     display: flex;
-    align-items: center; /* Centra verticalmente los elementos */
+    align-items: center; 
     border-radius: 0 0 20px 0;
     margin-left: 200px;
   
@@ -113,28 +113,28 @@ header {
 }
 
 
-/* Estilo para los botones dentro de la parte de la derecha */
+
 .parte2 .navBar .boton {
     display: inline-block;
-    background-color: rgb(139, 69, 19); /* Color de fondo inicial */
-    transition: background-color 0.3s; /* Transición suave para el cambio de color de fondo */
-    padding: 10px 10px; /* Ajusta el tamaño de los botones aumentando el padding */
+    background-color: rgb(139, 69, 19); 
+    transition: background-color 0.3s; 
+    padding: 10px 10px; 
     border-radius: 20px;
     font-size: 20px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Cambia la fuente a una más amigable (puedes usar otras fuentes) */
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #FFDFBA;
   
     
 }
 
 
-/* Estilo para los botones dentro de la parte de la derecha */
+
 .parte2 .navBar .boton2 {
     display: inline-block;
     margin-left: 200px;
-    background-color: rgb(139, 69, 19); /* Color de fondo inicial */
-    transition: background-color 0.3s; /* Transición suave para el cambio de color de fondo */
-    padding: 10px 10px; /* Ajusta el tamaño de los botones aumentando el padding */
+    background-color: rgb(139, 69, 19); 
+    transition: background-color 0.3s;
+    padding: 10px 10px; 
     border-radius: 20px;
     font-size: 20px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -145,9 +145,9 @@ header {
 .parte2 .navBar .boton3 {
     display: inline-block;
     margin-left: 200px;
-    background-color: rgb(139, 69, 19); /* Color de fondo inicial */
-    transition: background-color 0.3s; /* Transición suave para el cambio de color de fondo */
-    padding: 10px 10px; /* Ajusta el tamaño de los botones aumentando el padding */
+    background-color: rgb(139, 69, 19); 
+    transition: background-color 0.3s; 
+    padding: 10px 10px; 
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px ;
@@ -159,7 +159,7 @@ header {
     
 }
 
-/* Estilo para los botones enlaces */
+
 .parte2 .navBar .boton a {
     text-decoration: none;
     font-weight: bold;
@@ -168,34 +168,34 @@ header {
 
 
 
-/* Efecto de hover para los botones */
+
 .parte2 .navBar .boton:hover {
-    background-color: rgb(162, 82, 45); /* Cambia el color de fondo al pasar el cursor */
+    background-color: rgb(162, 82, 45);
 }
 
-/* Estilo para los botones enlaces */
+
 .parte2 .navBar .boton2 a {
     text-decoration: none;
     color: #FFDFBA;
     font-weight: bold;
 }
 
-/* Efecto de hover para los botones */
+
 .parte2 .navBar .boton2:hover {
-    background-color: rgb(162, 82, 45); /* Cambia el color de fondo al pasar el cursor */
+    background-color: rgb(162, 82, 45);
     color: #FFD7DC;
 }
 
-/* Estilo para los botones enlaces */
+
 .parte2 .navBar .boton3 a {
     text-decoration: none;
     color: #FFDFBA;
     font-weight: bold;
 }
 
-/* Efecto de hover para los botones */
+
 .parte2 .navBar .boton3:hover {
-    background-color: rgb(162, 82, 45); /* Cambia el color de fondo al pasar el cursor */
+    background-color: rgb(162, 82, 45); 
 }
 
 .parte2 .navBar .boton a:hover {
@@ -266,16 +266,16 @@ header {
 
 
 .lista-p {
-    padding-left: 15px; /* Espacio adicional a la izquierda para los puntos */
+    padding-left: 15px; 
     position: relative;
     font-weight: 500;
 }
 
 .lista-p:before {
-    content: "•"; /* Agrega un punto como marcador */
+    content: "•"; 
     position: absolute;
-    left: -5px; /* Ajusta la posición del punto */
-    color: #654321; /* Color del punto */
+    left: -5px; 
+    color: #654321; 
 }
 
 
