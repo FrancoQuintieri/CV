@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="bodyJ">
+    <div class="containerJ">
+        <h2>Juego de operaciones Matematicas</h2>
+        <section class="container-operadores">
+            <button id="suma" onclick="btnSumar()">
+                <i class="fa-solid fa-plus"></i>
+            </button>
+            <button id="resta" onclick="btnRestar()">
+                <i class="fa-solid fa-minus"></i>
+            </button>
+            <button id="producto" onclick="btnProducto()">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            <button id="division" onclick="btnDivision()">
+                <i class="fa-solid fa-divide"></i>
+            </button>
+        </section>
+
+        <section class="container-operacion">
+            <span id="num1">5</span>
+            <span id="operacion">+</span>
+            <span id="num2">6</span>
+            <span>=</span>
+            <input type="text" name="" id="respuesta_usuario">
+            <button id="corregir" onclick="corregir()">Corregir</button>
+        
+        </section>   
+        
+        <section id="msj_correccion">
+
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+
+    
+</body>
+</html>
